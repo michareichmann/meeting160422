@@ -1,0 +1,17 @@
+\beamer@endinputifotherversion {3.24pt}
+\select@language {british}
+\beamer@sectionintoc {1}{DRS4 Cells}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Cell Length}{4}{0}{1}
+\beamer@sectionintoc {2}{Signal Vs. Trigger Cell}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Fixed Bins}{6}{0}{2}
+\beamer@subsectionintoc {2}{2}{Fixed Time}{7}{0}{2}
+\beamer@sectionintoc {3}{Peak Timing Cut}{9}{0}{3}
+\beamer@subsectionintoc {3}{1}{Peak Timing Vs Trigger Cell}{10}{0}{3}
+\beamer@subsectionintoc {3}{2}{Sigma}{11}{0}{3}
+\beamer@sectionintoc {4}{Peak Positions}{12}{0}{4}
+\beamer@subsectionintoc {4}{1}{Peak Positions}{13}{0}{4}
+\beamer@subsectionintoc {4}{2}{Peak Numbers}{14}{0}{4}
+\beamer@sectionintoc {5}{August 2015 Beam Test Data}{15}{0}{5}
+\beamer@subsectionintoc {5}{1}{Poly B2}{16}{0}{5}
+\beamer@subsectionintoc {5}{2}{S129}{17}{0}{5}
+\beamer@sectionintoc {6}{Conclusion}{18}{0}{6}

@@ -30,7 +30,7 @@
 		\end{center}}
 		\vspace*{10pt}
 		\begin{center}\small
-		Speaker: Felix Bachmair
+		Michael Reichmann
 		\end{center}\normalsize
 	\end{alertblock}
 \end{frame}
@@ -185,35 +185,6 @@
 	\end{itemize}
 \end{frame}
 % ============================
-% END
-% ====================================================================================
-% BEGIN AUGUST DATA
-% ====================================================================================
-\section{August 2015 Beam Test Data}
-% ============================
-\subsection{Poly B2}
-\begin{frame}
-	\begin{itemize}
-		\item nada
-	\end{itemize}
-\end{frame}
-% ============================
-\subsection{S129}
-\begin{frame}
-	\begin{itemize}
-		\item nada
-	\end{itemize}
-\end{frame}
-% ====================================================================================
-% BEGIN CONCLUSION
-% ====================================================================================
-\section{Conclusion}
-% ============================
-\begin{frame}
-	\begin{itemize}
-		\item improving signal calculation by fixing the integral in time
-	\end{itemize}
-\end{frame}
 % END
 % DOCUMENT END
 \end{document}
