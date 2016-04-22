@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2016.2.18)  22 APR 2016 00:18
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2016.2.18)  22 APR 2016 07:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1715,13 +1715,36 @@ File: Pics/PeakNumbersEst.png Graphic file (type QTm)
 ]
 [15
 
-] [16
+]
+File: Pics/PhB2Neg.png Graphic file (type QTm)
+ <use  "Pics/PhB2Neg.png" >
+File: Pics/PhB2NegZero.png Graphic file (type QTm)
+ <use  "Pics/PhB2NegZero.png" >
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 219.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 219.
+LaTeX Font Info:    Font shape `EU1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `EU1/lmss/m/sl' tried instead on input line 219.
 
-] [17
+LaTeX Font Info:    Font shape `EU1/lmss/m/it' in size <8> not available
+(Font)              Font shape `EU1/lmss/m/sl' tried instead on input line 219.
+
+ [16
+
+]
+File: Pics/PhB2Pos.png Graphic file (type QTm)
+
+<use  "Pics/PhB2Pos.png" >
+File: Pics/PhB2PosZero.png Graphic file (type QTm)
+ <use  "Pics/PhB2PosZero.png" > [17
 
 ] [18
 
 ] [19
+
+]
+[20
 
 ]
 \tf@nav=\write7
@@ -1733,20 +1756,20 @@ File: Pics/PeakNumbersEst.png Graphic file (type QTm)
 \tf@snm=\write9
 \openout9 = `meeting_16_04_22.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 219.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 219.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 268.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 268.
  (./meeting_16_04_22.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 219.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 219.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 219.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 268.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 268.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 268.
  ) 
 Here is how much of TeX's memory you used:
- 34191 strings out of 493918
- 687994 string characters out of 6150563
- 742674 words of memory out of 5000000
- 36861 multiletter control sequences out of 15000+600000
- 9716 words of font info for 63 fonts, out of 8000000 for 9000
+ 34232 strings out of 493918
+ 688625 string characters out of 6150563
+ 744339 words of memory out of 5000000
+ 36887 multiletter control sequences out of 15000+600000
+ 13056 words of font info for 79 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 49i,19n,63p,10400b,760s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,19n,63p,10400b,796s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on meeting_16_04_22.pdf (19 pages).
+Output written on meeting_16_04_22.pdf (20 pages).

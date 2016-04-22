@@ -13,5 +13,5 @@
 \beamer@subsectionintoc {4}{2}{Peak Numbers}{14}{0}{4}
 \beamer@sectionintoc {5}{August 2015 Beam Test Data}{15}{0}{5}
 \beamer@subsectionintoc {5}{1}{Poly B2}{16}{0}{5}
-\beamer@subsectionintoc {5}{2}{S129}{17}{0}{5}
-\beamer@sectionintoc {6}{Conclusion}{18}{0}{6}
+\beamer@subsectionintoc {5}{2}{S129}{18}{0}{5}
+\beamer@sectionintoc {6}{Conclusion}{19}{0}{6}

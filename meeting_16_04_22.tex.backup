@@ -30,7 +30,7 @@
 		\end{center}}
 		\vspace*{10pt}
 		\begin{center}\small
-		Michael Reichmann
+		Speaker: Felix Bachmair
 		\end{center}\normalsize
 	\end{alertblock}
 \end{frame}
@@ -53,14 +53,15 @@
 	\begin{center}
 		\includegraphics[width=11cm]{DRSBinSizes}
 	\end{center}
-	\begin{minipage}{5.5cm}
+	\begin{minipage}{3.5cm}
 		\centering
 		\includegraphics[width=3.5cm]{BinDisto}
 	\end{minipage}
 	\hspace*{2pt}
-	\begin{minipage}{5.5cm}
+	\begin{minipage}{7.5cm}
 		\begin{itemize}
 			\item bin sizes centered around .5
+			\item two gaussian peaks around \SI{.42}{ns} and \SI{.59}{ns} with sigmas of $\approx$ \SI{.05}{ns}
 		\end{itemize}
 	\end{minipage}
 \end{frame}
@@ -90,10 +91,12 @@
 		\includegraphics[width=8cm]{IntegralLength}
 	\end{center}
 	\begin{itemize}
+		\setlength{\itemsep}{\fill}
 		\item different time sizes of the bins
 		\item using same interval as before: [8,12] $\rightarrow$ [\SI{4}{ns}, \SI{6}{ns}] taking \SI{.5}{ns} as average bin size
 		\item summing up the pulse heights until the integral has a fixed time size
 		\item taking part of the outer bins (orange) that is missing to the exact time value
+		\item use straight line approximation?
 		\item $\rightarrow$ make new SNR study!
 	\end{itemize}
 \end{frame}
@@ -160,7 +163,7 @@
 		\item peaks in between the secondary peaks
 		\begin{itemize}
 			\item almost same ratio of trigger peak/peak after as secondary peaks/peak in between
-			\item idea different particle type! (positrons, myon)
+			\item idea different particle type! (positrons, myons?)
 			\item possibility to trigger on other particles
 		\end{itemize}
 	\end{itemize}
@@ -182,9 +185,68 @@
 		\begin{itemize}
 			\item p1 = 0.988, p2 = 0.68
 		\end{itemize}
+		\item use distribution to estimate the flux!?
+		\begin{itemize}
+			\item does it mean that flux is 68\% lower than expected?
+			\item longer tail due to peak of additional particles?
+			\item wrong size of the diamond // edges less efficiant?
+			\item influence of dead time?
+		\end{itemize}
+
 	\end{itemize}
 \end{frame}
 % ============================
+% END
+% ====================================================================================
+% BEGIN AUGUST DATA
+% ====================================================================================
+\section{August 2015 Beam Test Data}
+% ============================
+\subsection{Poly B2}
+\begin{frame}
+	\frametitle{\SI{-1000}{V}}
+	\begin{minipage}{5.5cm}
+		\centering
+		\includegraphics[width=5.5cm]{PhB2Neg}
+	\end{minipage}
+	\vspace*{2pt}
+	\begin{minipage}{5.5cm}
+		\centering
+		\includegraphics[width=5.5cm]{PhB2NegZero}
+	\end{minipage}
+\end{frame}
+% ============================
+\subsection{S129}
+\begin{frame}
+	\frametitle{+\SI{1000}{V}}
+	\begin{minipage}{5.5cm}
+		\centering
+		\includegraphics[width=5.5cm]{PhB2Pos}
+	\end{minipage}
+	\vspace*{2pt}
+	\begin{minipage}{5.5cm}
+		\centering
+		\includegraphics[width=5.5cm]{PhB2PosZero}
+	\end{minipage}
+\end{frame}
+% ====================================================================================
+% BEGIN CONCLUSION
+% ====================================================================================
+\section{Conclusion}
+% ============================
+\begin{frame}
+	\begin{itemize}
+		\setlength{\itemsep}{\fill}
+		\item exact time sizes of the bins distributed in double gaussian shape around \SI{.5}{ns}
+		\item improving signal calculation by fixing the integral in time
+		\item general dependence on trigger cell not completeley cured by tcal correction of the DRS4
+		\item adding time correction based on remaining dependce on trigger cell
+		\item introducing new cut on exact signal peak timing 
+		\item secondary beam bunches equally filled
+		\item possibly a second particle type in the data
+		\item August data of unirradiated II6-B2 shows stronger dependence on Rate
+	\end{itemize}
+\end{frame}
 % END
 % DOCUMENT END
 \end{document}
